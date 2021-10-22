@@ -17,6 +17,7 @@ const server = http.createServer((req,res)=>
             //   const ob  = JSON.parse(hapy);
             // error if i wan to convert json into object then res.end(object is showing error);
           res.end(data);
+          // here normal display of json is  working but the object is not displayed
       });
       
     }
